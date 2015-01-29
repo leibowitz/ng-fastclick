@@ -822,5 +822,5 @@ if (typeof define == 'function' && typeof define.amd == 'object' && define.amd) 
 
 angular.module('ng-fastclick', []).run(function() {
   FastClick.attach(document.body)
-})
+});
 
